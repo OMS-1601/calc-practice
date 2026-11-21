@@ -1,1 +1,39 @@
+<!DOCTYPE html>
 
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Calculator</h1><br>
+
+        <div class="calc">
+            <h2 class="answer"><span id="displayNum"></span></h2>
+
+            <div class="buttons">
+                <button type="button" onclick="button1()">1</button>
+                <button type="button">2</button>
+                <button type="button">3</button>
+                <button type="button">*</button><br>
+                <button type="button">4</button>
+                <button type="button">5</button>
+                <button type="button">6</button>
+                <button type="button">-</button><br>
+                <button type="button">7</button>
+                <button type="button">8</button>
+                <button type="button">9</button>
+                <button type="button">+</button>
+            </div>
+            
+        </div>
+        <script>
+            function display() {
+                let numDisplayed = num;
+            }
+            function button1() {
+                let num = 1;
+            }
+            document.getElementById("displayNum").innerHTML = numDisplayed;
+        </script>
+    </body>
+</html>
